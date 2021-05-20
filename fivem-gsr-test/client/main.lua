@@ -10,7 +10,7 @@ Citizen.CreateThread(function()
 end)
 
 if Config.EnableCleanGSR then
-    RegisterCommand('cleangsr', function()
+    RegisterCommand(Config.CleanGSR, function()
         if gsrPositive then
             gsrPositive = false
             gsrTimer = 0
@@ -23,7 +23,7 @@ if Config.EnableCleanGSR then
 end
 
 
-RegisterCommand('gsr', function()
+RegisterCommand(Config.TestGSR, function()
     local playerCoords = GetEntityCoords(plyPed)
     for _, player in ipairs(GetActivePlayers()) do
         local targetPed = GetPlayerPed(player)
