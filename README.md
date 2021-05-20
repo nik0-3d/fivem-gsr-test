@@ -1,8 +1,8 @@
 # GSR Test
 
 Simple Standalone Gunshot Residue Test Script For FiveM
-![Showcase Video](https://www.youtube.com/)
-For Support Join ![My Discord](https://discord.gg/gZP6Hzdr2N)
+[Showcase Video](https://www.youtube.com/)
+For Support Join [My Discord](https://discord.gg/gZP6Hzdr2N)
 ## How to install
 Simply drag the resource into your resources folder, and add ```ensure fivem-gsr-test``` into your server.cfg
 
